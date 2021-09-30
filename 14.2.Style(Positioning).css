@@ -1,0 +1,53 @@
+#positioning{
+    background: #aaa;
+}
+
+#container{
+    background: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 2000px;
+    position: relative; /* This being the parent element ensures that the rest of the elements assume the ends of the parent element automatically especially the absolute*/
+}
+
+h1{
+    font-size: 50;
+}
+#positioning #container h2{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Helvitica, arial, sans-serif;
+}
+
+.box{
+    background: #db4e3e;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    line-height: 200px; /*This is to vertically center*/
+    text-transform: uppercase;
+    font-family: Helvitica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#relative{
+    position: relative;
+    top: 10px;
+    left: -50px;
+    
+}
+
+#absolute{
+    position: absolute; /* This takes the content out of the page and this helps you to move the element*/
+    bottom: 0;
+    right: 0
+}
+
+#fixed{  /*This is relative to the screen. It doesn't move*/
+    position: fixed;
+    right: 100px;
+    top: 100px;
+}

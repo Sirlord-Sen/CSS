@@ -1,0 +1,29 @@
+body{
+    background: orange;
+}
+
+.background-example{
+    height: 300px;
+    width: 300px;
+    border: solid 4px green;
+    color: white;
+}
+
+#background-1{
+    /* By default, background images repeat X & Y, and are position top left */
+    background-image: url(vlcsnap-2017-10-15-13h53m31s958.png)
+
+}
+
+#background-2{
+    background-color: pink;
+}
+#background-3{
+    background-image:url(vlcsnap-2017-10-15-13h53m31s958.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#background-4{
+    background: white url(vlcsnap-2017-10-15-13h53m31s958.png) bottom left repeat-x;
+}

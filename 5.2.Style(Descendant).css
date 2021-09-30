@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+}
+
+
+.primary-box{
+    background-color: white;
+    border: solid 10px black;
+    padding: 20px;
+}
+
+.secondary-box{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.secondary-box p {
+    font-size: 20;
+    font-family: cursive;
+}
+
+.secondary-box p em {
+    color: pink;
+}

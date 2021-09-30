@@ -1,0 +1,75 @@
+#floats {
+    background: #d41;
+}
+
+
+#floats #container{
+    background: white;
+    padding: 20px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#lord1{
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+#box1{
+    width: 320px;
+    height: 180px;
+    background: red;
+    float: right;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#main-column{
+    width: 250px;
+    float: left;
+    color: white;
+    background-color: blue;
+    border-bottom: 50px;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+     
+}
+
+#sidebar{
+    width: 300px;
+    float: right;
+    background: pink;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Georgia, Times, serif;
+}
+
+#footer{
+    clear: both;
+    background: black;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+    
+}
+.clearfix:after {     /* This cleans the errors */
+    content:"";
+    display:table;
+    clear: both;
+}
+
+#lordem{
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+#para1{
+    clear: right;
+}
+

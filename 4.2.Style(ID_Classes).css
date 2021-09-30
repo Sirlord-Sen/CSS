@@ -1,0 +1,18 @@
+body#idclasspage{
+    background-color: orange;
+}
+h1#main-title{        /*Since this is an ID and there is none like it, you can just make it main-title without the h1*/
+    background-color: orangered;
+    color: blue;
+    font-family: cursive;
+    padding: 50px;
+    font-size: 70px;
+}
+
+.section-header{
+    color: green;
+    font-style: italic;
+    border: solid 1px pink;
+    text-align: center;
+    font-size: 2em;
+}

@@ -1,0 +1,17 @@
+.border-box{
+    background: #fc3;
+    margin:20px auto;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    
+}
+
+#box1{border: solid 2px black}
+#box2{border: dashed 2px black}
+#box3{border: dotted 2px black}
+#box4{border: double 3px black}
+#box5{border: solid 5px black}
+#box6{border: dashed 5px black}
+#box7{border: dotted 5px black}
+#box8{border: double 5px black}

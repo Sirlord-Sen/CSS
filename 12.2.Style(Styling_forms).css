@@ -1,0 +1,74 @@
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form{
+    
+    margin-top: 40px; /* This moves the form away from the header a little bit by 40px */
+}
+
+fieldset{
+    padding: 40px;
+    border: solid 4px #aaa;
+    background-color: blueviolet; /* Here, you could also use background images. */
+    background-position: center
+}
+fieldset legend{
+    background-color: white;/* This makes the background of the legend white so that its full content can be known */
+    padding: 10px;
+    border: solid 2px #aaa;
+    border-radius: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea
+{
+    padding: 10px;
+    margin: 0 0 20px;
+    border: solid 1px #454545;
+    border-top: none;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #777;
+    font-family: Monaco, monospace;
+    text-transform: uppercase;
+}
+textarea{
+    resize: none;
+}
+
+label{
+    
+    font-size: 12px;
+    text-transform: capitalize;
+    font-family: cursive;
+    background-color: pink;
+    border: solid 1px black;
+    color: red;
+    display: block;
+    width: 50%; /*Padding adds extra width to the content so youmuch calculate it and find how much width you can add to suit the padding*/
+    padding:2%;
+        
+}
+
+input[type="submit"]{
+    background: none;
+    background: url(vlcsnap-2017-10-15-13h53m31s958.png) repeat-x;
+    color: white;
+    padding: 0 40px;
+    height: 40px;
+    text-transform: capitalize;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    border-color: peachpuff;
+}
+
+input[type="sumbit"]:active{
+    border-color: yellow;
+    outline-color: red;
+}
